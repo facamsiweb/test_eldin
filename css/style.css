@@ -1,0 +1,33 @@
+input[type=text] {
+	background-color: white;
+	background-image: url('../img/search-icon.png');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 10px 0 10px 40px; 
+	width: 200px;
+
+}
+
+#form {
+	margin-top: 100px;
+} 
+
+#search {
+	border-radius: 5em;
+	border: 1px gray solid;
+} 
+
+#apply {
+	background-color: #551A8B;
+	color: #ffffff;
+	width: 30%;
+}
+
+.mybutton {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: #D3D3D3;
+}
+
