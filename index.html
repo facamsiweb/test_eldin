@@ -135,12 +135,28 @@
 					$("#apply").css("background-color", "#551A8B");
 			});
 
+			var on = false
+
 			$(".mybutton").click(function(){
+				if ( !on ) {
+					activate_zoom();
+					on = true;
+
+				} else {
+					$(".mybutton").css({
+						'transition': 'all 1s',
+						'transform': 'scale(1)',
+					});
+					on = false
+				}
+			});
+			
+			function activate_zoom () {
 				$(".mybutton").css({
 					'transition': 'all 1s',
 					'transform': 'scale(0.5)',
 				});
-			});
+			}			
 
 		});
 	</script>	

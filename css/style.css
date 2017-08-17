@@ -25,9 +25,16 @@ input[type=text] {
 }
 
 .mybutton {
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
 	background-color: #D3D3D3;
+	border: solid 10px #D3D3D3;
+	background: url('../img/green-heart.png') no-repeat center;
+	background-size: 50%;
+	
+	
+
+
 }
 
